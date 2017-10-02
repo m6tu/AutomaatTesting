@@ -11,4 +11,33 @@ public class WeatherAppTest {
 		fail("Not yet implemented");
 	}
 
+
+
+	@Test
+	public void testIfForecastIsUpToDate(){
+		try{
+		
+		}catch(Exception e){
+			fail("Failure cause: " + e.getMessage());
+		}
+	}
+	
+	@Test
+	public void testIfForecastRespondCityNameEqualsRequestCityName(){
+		try{
+		
+		}catch(Exception e){
+			fail("Failure cause: " + e.getMessage());
+		}
+	}
+
+	@Test
+	public void testIfForecastRespondCityEqualsRequestCityTemp(){
+		try{
+		
+		}catch(Exception e){
+			fail("Failure cause: " + e.getMessage());
+		}
+	}
+	
 }
